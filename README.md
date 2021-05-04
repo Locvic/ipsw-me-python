@@ -6,7 +6,7 @@ Better docmentation coming soon [wiki](https://github.com/Vislate/ipsw-me-python
 `pip install ipsw-me`
 
 # Examples
-```
+```py
 import ipsw_me # Import module
 
 api = ipsw_me.API() # Initialize api
