@@ -1,5 +1,16 @@
 # ipsw-me-python
+<a href="https://github.com/Vislate/ipsw-me-python/blob/main/LICENSE">
+<img src="https://img.shields.io/github/license/Vislate/ipsw-me-python?style=for-the-badge">
+</a>
+<a href="https://pypi.org/project/ipsw-me/">
+<img src="https://img.shields.io/static/v1?label=pypi&message=ipsw-me&color=blue&style=for-the-badge">
+</a>
+<a href="#">
+<img src="https://img.shields.io/github/downloads/Vislate/ipsw-me-python/total?style=for-the-badge">
+</a>
+
 Simple & lightweight IPSW.me API wrapper written in Python
+
 Better docmentation coming soon [wiki](https://github.com/Vislate/ipsw-me-python/wiki)
 
 # Installation
