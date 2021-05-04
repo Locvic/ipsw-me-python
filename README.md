@@ -26,5 +26,7 @@ print(ipsw.signed) # True or False
 
 # Credits
 [fxrcha](https://github.com/fxrcha) PyApple package
+
 [IPSW.me](https://ipswdownloads.docs.apiary.io/) IPSW.me API documentation
+
 [The iPhone Wiki](https://www.theiphonewiki.com/wiki/Main_Page) Device information and documentation
