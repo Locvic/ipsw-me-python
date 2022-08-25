@@ -47,19 +47,21 @@ class IPSWFirmware:
     :buildid: - Build ID
     :sha1sum: - SHA1 Hash
     :md5sum: - MD5 Hash
+    :sha256sum: - SHA256 Hash
     :filesize: - File size in bytes
     :releasedate: - Release date in datetime
     :uploaddate: - Upload date in datetime
     :signed: - IPSW signed bool
     """
 
-    def __init__(self, identifier: str, url: str, version: str, buildid: str, sha1sum: str, md5sum: str, filesize: int, releasedate: Union[str, None], uploaddate: Union[str, None], signed: bool) -> None:
+    def __init__(self, identifier: str, url: str, version: str, buildid: str, sha1sum: str, md5sum: str, sha256sum: str, filesize: int, releasedate: Union[str, None], uploaddate: Union[str, None], signed: bool) -> None:
         self.identifier = identifier
         self.url = url
         self.version = version
         self.buildid = buildid
         self.sha1sum = sha1sum # hash
         self.md5sum = md5sum # hash
+        self.sha256sum = sha256sum # hash
         self.filesize = filesize # in bytes
         self.releasedate = convert_datetime(releasedate) # datetime
         self.uploaddate = convert_datetime(uploaddate) # datetime
